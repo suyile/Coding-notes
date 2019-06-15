@@ -1,0 +1,6 @@
+>>> lines = sc.textFile("/sampledata/sherlock-holmes.txt")
+>>> type(lines)
+<class 'pyspark.rdd.RDD'>
+>>> lines.count()
+12652
+>>> lines.take(15)
